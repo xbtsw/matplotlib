@@ -17,7 +17,7 @@ def test_divider_append_axes():
     x = np.random.randn(1000)
     y = np.random.randn(1000)
 
-    fig, axScatter = plt.subplots(figsize=(5.5, 5.5))
+    fig, axScatter = plt.subplots()
 
     # the scatter plot:
     axScatter.scatter(x, y)
