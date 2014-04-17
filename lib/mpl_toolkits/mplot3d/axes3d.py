@@ -2457,7 +2457,7 @@ class Axes3D(Axes):
             # use unit vector perpendicular to (u,v,w) when |w|=1, by default
             x, y, z = 1, 0, 0   
 
-			# get the norm 
+            # get the norm 
             norm = math.sqrt(v**2 + u**2) 
             # normalize it if it is safe
             if norm > 0:
@@ -2559,7 +2559,6 @@ class Axes3D(Axes):
             la2y = y - t * va2
             la2z = z - t * wa2
 
-          
             line = list(zip(la1x, la1y, la1z))
             lines.append(line)
             line = list(zip(la2x, la2y, la2z))
