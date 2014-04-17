@@ -2449,7 +2449,7 @@ class Axes3D(Axes):
         """
         def calc_arrow(u, v, w, angle=15):
             """
-            To calculate the arrow head.
+            To calculate the arrow head. (u, v, w) should be unit vector.
             """
  
             # this part figures out the axis of rotation to use
