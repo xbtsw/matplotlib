@@ -2455,7 +2455,7 @@ class Axes3D(Axes):
             # this part figures out the axis of rotation to use
 
             # use unit vector perpendicular to (u,v,w) when |w|=1, by default
-            x, y, z = 1, 0, 0   
+            x, y, z = 0, 1, 0   
 
             # get the norm 
             norm = math.sqrt(v**2 + u**2) 
